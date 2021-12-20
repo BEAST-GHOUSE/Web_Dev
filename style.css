@@ -1,0 +1,138 @@
+body{
+    font-family: 'Quicksand',sans-serif;
+}
+#id a{
+    font-family:  'Oleo Script' ,sans-serif;
+    font-size: 32px;
+    padding: 10px;
+    color: rgb(231, 231, 0);
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0;
+}
+header{
+    padding :12px 12px 20px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    color:yellow;
+    /* flex-direction: column; */
+}
+header li{
+    margin-left: 20px;
+    color: rgb(225, 251, 0);
+}
+#hero{
+    height: 750px;
+    text-align: center;
+    background-image: url("images/83-830125_surfing.jpeg");
+    /* background-position: center; */
+    background-size: cover;
+    margin-bottom: 0;
+    
+}
+#hero-content{
+    /* width: 900px; */
+    background-color: rgba(51, 47, 47, 0.5);
+    box-shadow:2px 2px 8px rgb(18, 27, 27);
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px 0;
+    margin:0 auto;
+    position: relative;
+    top:120px;
+}
+#hero-content h1{
+    font-family: "Raleway",sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(21, 58, 180);
+}
+#hero-content p{
+    font-family: "raleway",sans-serif;
+    font-size: 29px;
+    margin-top: 8px;
+    margin-bottom:19px;
+}
+#hero-content a{
+    font-family:"raleway", serif;
+    font-size: 20px;
+    background-color:rgb(226, 226, 0) ;
+    padding:10px 24px;
+    color: black;
+    margin: 0;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 2px 4px 8px rgb(19, 20, 31)
+}
+#hero-content a:hover{
+    background-color:rgb(189, 189, 8) ;
+
+}
+header a{
+    color:rgb(200, 255, 0);
+    /* text-shadow: 2px 2px 4px rgb(86, 96, 42); */
+    border-radius: 10px;
+    padding: 20px;
+}
+header a:hover{
+    color: rgb(29, 29, 17);
+    background-color: rgb(226, 250, 10);
+}
+#highlights{
+    background:linear-gradient(rgb(227,255,253),rgb(202,243,247));
+    text-align: center;
+    padding: 20px;
+}
+#destination li{
+    list-style: none;
+    font-size: 25px;
+    color: rgb(9, 211, 211);
+}
+.des img{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px rgb(26, 67, 78);
+    object-fit: cover;
+}
+#destination strong{
+    color: rgb(0, 145, 182);
+}
+#destination{
+    display: flex;
+    justify-content: center;
+}
+.des p{
+    text-align: center;
+}
+.des{
+    margin:0 20px;
+}
+footer{
+    background: linear-gradient(rgb(12,13,23),rgb(22,47,45));
+    padding: 10px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    margin-right: 50px;
+}
+footer img{
+    height:100px;
+}
